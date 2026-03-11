@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chhataniya Shree Organic Dairy Farm</title>
+<title>Desi Cow Bilona Ghee | Chhataniya Shree Organic Dairy Farm</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 
 body{
-margin:0;
 font-family:Arial;
-background:#f4fff4;
+margin:0;
+background:#fafafa;
 }
 
 header{
 background:#1b5e20;
 color:white;
-padding:25px;
+padding:20px;
 text-align:center;
 }
 
-.hero{
-background:url('https://images.unsplash.com/photo-1560493676-04071c5f467b');
-background-size:cover;
-color:white;
-text-align:center;
-padding:100px 20px;
-}
-
-.hero h1{
-font-size:40px;
-}
-
-.products{
+.container{
 display:flex;
 flex-wrap:wrap;
-justify-content:center;
-gap:25px;
 padding:40px;
+gap:40px;
+justify-content:center;
 }
 
-.card{
-background:white;
-width:260px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.15);
-text-align:center;
+.image{
+flex:1;
+min-width:300px;
 }
 
-.card img{
+.image img{
 width:100%;
-border-radius:8px;
+border-radius:10px;
+}
+
+.details{
+flex:1;
+min-width:300px;
 }
 
 .price{
-font-size:18px;
+font-size:28px;
 color:#1b5e20;
 font-weight:bold;
+}
+
+.oldprice{
+text-decoration:line-through;
+color:gray;
 }
 
 button{
 background:#1b5e20;
 color:white;
 border:none;
-padding:10px 20px;
+padding:14px 30px;
+font-size:16px;
 border-radius:6px;
 cursor:pointer;
-margin-top:10px;
+margin-top:15px;
 }
 
 button:hover{
 background:#2e7d32;
+}
+
+.benefits{
+padding:40px;
+background:#f1f8e9;
 }
 
 footer{
@@ -81,6 +82,7 @@ padding:20px;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -88,60 +90,52 @@ padding:20px;
 <header>
 
 <h2>🐄 Chhataniya Shree Organic Dairy Farm</h2>
-<p>Pure Desi Cow Milk Products</p>
 
 </header>
 
-<div class="hero">
+<div class="container">
 
-<h1>Fresh Organic Dairy Products</h1>
-<p>हमारे फार्म से सीधे आपके घर तक</p>
-
-</div>
-
-<div class="products">
-
-<div class="card">
+<div class="image">
 
 <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707">
 
-<h3>Desi Cow Ghee</h3>
+</div>
 
-<p class="price">500g - ₹700</p>
+<div class="details">
+
+<h1>A2 Desi Cow Bilona Ghee</h1>
+
+<p class="price">₹1190</p>
+
+<p class="oldprice">₹1490</p>
+
+<p>Pure A2 desi cow ghee made by traditional bilona method.</p>
 
 <button onclick="window.open('https://wa.me/918290392802')">
+
 Order on WhatsApp
+
 </button>
 
 </div>
 
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d">
-
-<h3>Fresh Paneer</h3>
-
-<p class="price">500g - ₹250</p>
-
-<button onclick="window.open('https://wa.me/918290392802')">
-Order on WhatsApp
-</button>
-
 </div>
 
-<div class="card">
+<div class="benefits">
 
-<img src="https://images.unsplash.com/photo-1604908177225-9e7bb2a0e54b">
+<h2>Why Our Ghee?</h2>
 
-<h3>Fresh Mawa</h3>
+<ul>
 
-<p class="price">500g - ₹300</p>
+<li>100% Pure Desi Cow Milk</li>
 
-<button onclick="window.open('https://wa.me/918290392802')">
-Order on WhatsApp
-</button>
+<li>Traditional Bilona Method</li>
 
-</div>
+<li>No Chemicals or Preservatives</li>
+
+<li>Direct from Farm</li>
+
+</ul>
 
 </div>
 
