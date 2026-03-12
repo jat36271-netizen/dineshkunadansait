@@ -4,21 +4,51 @@ font-family: Arial;
 
 margin:0;
 
-background:#f8f8f8;
+background:#f7f2e6;
 
 }
 
+
+/* HEADER */
+
 header{
 
-background:#1b5e20;
+background:linear-gradient(to right,#8b5e3c,#caa75d);
 
 color:white;
 
 text-align:center;
 
-padding:30px;
+padding:20px;
 
 }
+
+/* LOGO AREA */
+
+.logo-area{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+}
+
+.logo{
+
+width:80px;
+
+border-radius:8px;
+
+}
+
+
+/* HERO */
 
 .hero{
 
@@ -36,7 +66,12 @@ max-width:500px;
 
 border-radius:10px;
 
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+
 }
+
+
+/* BUTTON */
 
 button{
 
@@ -54,13 +89,30 @@ cursor:pointer;
 
 border-radius:6px;
 
+font-size:16px;
+
 }
+
+button:hover{
+
+background:#2e7d32;
+
+}
+
+
+/* PRODUCTS */
 
 .products{
 
 padding:40px;
 
 text-align:center;
+
+}
+
+.products h2{
+
+color:#8b5e3c;
 
 }
 
@@ -80,6 +132,14 @@ border-radius:10px;
 
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 
+transition:0.3s;
+
+}
+
+.product:hover{
+
+transform:scale(1.05);
+
 }
 
 .product img{
@@ -90,15 +150,21 @@ border-radius:8px;
 
 }
 
+
+/* DELIVERY */
+
 .delivery{
 
-background:#e8f5e9;
+background:#e6d7b9;
 
 padding:40px;
 
 text-align:center;
 
 }
+
+
+/* CONTACT */
 
 .contact{
 
@@ -108,9 +174,12 @@ text-align:center;
 
 }
 
+
+/* FOOTER */
+
 footer{
 
-background:#1b5e20;
+background:#8b5e3c;
 
 color:white;
 
