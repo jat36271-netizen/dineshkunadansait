@@ -1,151 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-<title>Desi Cow Bilona Ghee | Chhataniya Shree Organic Dairy Farm</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+<title>चैतन्य श्री ऑर्गेनिक डेयरी फार्म</title>
 
-body{
-font-family:Arial;
-margin:0;
-background:#fafafa;
-}
-
-header{
-background:#1b5e20;
-color:white;
-padding:20px;
-text-align:center;
-}
-
-.container{
-display:flex;
-flex-wrap:wrap;
-padding:40px;
-gap:40px;
-justify-content:center;
-}
-
-.image{
-flex:1;
-min-width:300px;
-}
-
-.image img{
-width:100%;
-border-radius:10px;
-}
-
-.details{
-flex:1;
-min-width:300px;
-}
-
-.price{
-font-size:28px;
-color:#1b5e20;
-font-weight:bold;
-}
-
-.oldprice{
-text-decoration:line-through;
-color:gray;
-}
-
-button{
-background:#1b5e20;
-color:white;
-border:none;
-padding:14px 30px;
-font-size:16px;
-border-radius:6px;
-cursor:pointer;
-margin-top:15px;
-}
-
-button:hover{
-background:#2e7d32;
-}
-
-.benefits{
-padding:40px;
-background:#f1f8e9;
-}
-
-footer{
-background:#1b5e20;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 <header>
+<h1>🐄 चैतन्य श्री ऑर्गेनिक डेयरी फार्म</h1>
 
-<h2>🐄 Chhataniya Shree Organic Dairy Farm</h2>
+<p>शुद्धता का भरोसा – हर बूंद में विश्वास</p>
 
 </header>
 
-<div class="container">
+<section class="hero">
 
-<div class="image">
+<img src="images/cow.jpg">
 
-<img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707">
+<h2>100% देसी और केमिकल फ्री दूध</h2>
 
-</div>
+<button onclick="orderNow()">Order Now</button>
 
-<div class="details">
+</section>
 
-<h1>A2 Desi Cow Bilona Ghee</h1>
+<section class="products">
 
-<p class="price">₹1190</p>
+<h2>हमारे उत्पाद</h2>
 
-<p class="oldprice">₹1490</p>
+<div class="product">
 
-<p>Pure A2 desi cow ghee made by traditional bilona method.</p>
+<img src="images/milk.jpg">
 
-<button onclick="window.open('https://wa.me/918290392802')">
+<h3>गाय का शुद्ध दूध</h3>
 
-Order on WhatsApp
-
-</button>
+<button onclick="orderNow()">Order</button>
 
 </div>
 
-</div>
+<div class="product">
 
-<div class="benefits">
+<img src="images/ghee.jpg">
 
-<h2>Why Our Ghee?</h2>
+<h3>देसी बिलौना घी</h3>
 
-<ul>
-
-<li>100% Pure Desi Cow Milk</li>
-
-<li>Traditional Bilona Method</li>
-
-<li>No Chemicals or Preservatives</li>
-
-<li>Direct from Farm</li>
-
-</ul>
+<button onclick="orderNow()">Order</button>
 
 </div>
+
+<div class="product">
+
+<img src="images/dahi.jpg">
+
+<h3>ताजा दही</h3>
+
+<button onclick="orderNow()">Order</button>
+
+</div>
+
+<div class="product">
+
+<img src="images/paneer.jpg">
+
+<h3>पनीर</h3>
+
+<button onclick="orderNow()">Order</button>
+
+</div>
+
+</section>
+
+<section class="delivery">
+
+<h2>🚚 Home Delivery Available</h2>
+
+<p>Daily Fresh Milk Delivery Available</p>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact</h2>
+
+<p>📍 कुलाटिया, तह. बेगूं, जिला – चित्तौड़गढ़</p>
+
+<p>📞 7232838385</p>
+
+<p>📲 WhatsApp: 8290392802</p>
+
+</section>
 
 <footer>
 
-<p>📍 Chittorgarh Rajasthan</p>
-
-<p>📞 WhatsApp: 8290392802</p>
+<p>© Chaitanya Shree Organic Dairy Farm</p>
 
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
