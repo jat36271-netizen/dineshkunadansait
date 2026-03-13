@@ -1,9 +1,7 @@
 body{
 
 font-family: Arial;
-
 margin:0;
-
 background:#f7f2e6;
 
 }
@@ -14,11 +12,8 @@ background:#f7f2e6;
 header{
 
 background:linear-gradient(to right,#8b5e3c,#caa75d);
-
 color:white;
-
 padding:20px;
-
 text-align:center;
 
 }
@@ -26,11 +21,8 @@ text-align:center;
 .logo-area{
 
 display:flex;
-
 align-items:center;
-
 justify-content:center;
-
 gap:15px;
 
 }
@@ -47,7 +39,6 @@ width:80px;
 .hero{
 
 text-align:center;
-
 padding:40px;
 
 }
@@ -55,11 +46,8 @@ padding:40px;
 .hero img{
 
 width:80%;
-
 max-width:500px;
-
 border-radius:10px;
-
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 
 }
@@ -70,19 +58,12 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 button{
 
 background:#1b5e20;
-
 color:white;
-
 border:none;
-
 padding:12px 25px;
-
 margin-top:10px;
-
 cursor:pointer;
-
 border-radius:6px;
-
 font-size:16px;
 
 }
@@ -99,7 +80,6 @@ background:#2e7d32;
 .products{
 
 padding:40px;
-
 text-align:center;
 
 }
@@ -113,19 +93,12 @@ color:#8b5e3c;
 .product{
 
 display:inline-block;
-
 width:250px;
-
 margin:20px;
-
 background:white;
-
 padding:15px;
-
 border-radius:10px;
-
 box-shadow:0 0 10px rgba(0,0,0,0.1);
-
 transition:0.3s;
 
 }
@@ -139,7 +112,6 @@ transform:scale(1.05);
 .product img{
 
 width:100%;
-
 border-radius:8px;
 
 }
@@ -156,9 +128,7 @@ font-size:20px;
 .old{
 
 text-decoration:line-through;
-
 color:gray;
-
 margin-left:10px;
 
 }
@@ -166,9 +136,7 @@ margin-left:10px;
 .new{
 
 color:#1b5e20;
-
 font-weight:bold;
-
 font-size:22px;
 
 }
@@ -179,9 +147,7 @@ font-size:22px;
 .delivery{
 
 background:#e6d7b9;
-
 padding:40px;
-
 text-align:center;
 
 }
@@ -192,7 +158,6 @@ text-align:center;
 .contact{
 
 padding:40px;
-
 text-align:center;
 
 }
@@ -203,11 +168,27 @@ text-align:center;
 footer{
 
 background:#8b5e3c;
-
 color:white;
-
 text-align:center;
-
 padding:20px;
+
+}
+
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float{
+
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:100;
+
+}
+
+.whatsapp-float img{
+
+width:60px;
+height:60px;
 
 }
