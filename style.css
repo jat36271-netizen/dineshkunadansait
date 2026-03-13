@@ -1,134 +1,47 @@
-body{
-font-family: Arial;
-margin:0;
-background:#f7f2e6;
-}
+/* GALLERY */
 
-/* HEADER */
-
-header{
-background:linear-gradient(to right,#8b5e3c,#caa75d);
-padding:15px;
-color:white;
-}
-
-.nav-container{
-display:flex;
-justify-content:space-between;
-align-items:center;
-max-width:1100px;
-margin:auto;
-}
-
-.logo-area{
-display:flex;
-align-items:center;
-gap:10px;
-}
-
-.logo{
-width:60px;
-border-radius:6px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 10px;
-font-weight:bold;
-}
-
-/* HERO */
-
-.hero{
-text-align:center;
+.gallery{
 padding:50px;
+text-align:center;
 }
 
-.hero img{
-width:80%;
-max-width:500px;
+.gallery-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.gallery-grid img{
+width:250px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
-button{
-background:#1b5e20;
-color:white;
-border:none;
-padding:12px 25px;
-margin-top:15px;
-cursor:pointer;
-border-radius:6px;
-font-size:16px;
-}
+/* REVIEWS */
 
-/* PRODUCTS */
-
-.products{
-padding:50px;
+.reviews{
+background:#f4eee0;
+padding:40px;
 text-align:center;
 }
 
-.product-grid{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:30px;
-}
-
-.product{
-width:230px;
+.review-box{
 background:white;
-padding:15px;
+display:inline-block;
+padding:20px;
+margin:10px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
-transition:0.3s;
+max-width:300px;
 }
 
-.product:hover{
-transform:scale(1.05);
-}
+/* MAP */
 
-.product img{
-width:100%;
-border-radius:8px;
-}
-
-/* DELIVERY */
-
-.delivery{
-background:#e6d7b9;
-padding:40px;
-text-align:center;
-}
-
-/* CONTACT */
-
-.contact{
-padding:40px;
-text-align:center;
-}
-
-/* FOOTER */
-
-footer{
-background:#8b5e3c;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-/* WHATSAPP FLOAT */
-
-.whatsapp-float{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25d366;
-color:white;
-font-size:25px;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
+.map iframe{
+width:90%;
+height:300px;
+border:0;
+margin-top:20px;
+border-radius:10px;
 }
