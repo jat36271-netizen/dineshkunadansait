@@ -142,7 +142,7 @@ font-size:22px;
 
 }
 
-/* TEXT */
+/* MAWA TEXT */
 
 .mava-text{
 
@@ -154,7 +154,7 @@ color:#7a4a16;
 
 }
 
-/* FLOAT BUTTONS */
+/* WHATSAPP FLOAT */
 
 .whatsapp-float{
 
@@ -176,6 +176,8 @@ height:55px;
 
 }
 
+/* INSTAGRAM FLOAT */
+
 .insta-float{
 
 position:fixed;
@@ -190,26 +192,10 @@ z-index:100;
 
 .insta-float img{
 
-width:55px;
+width:55px !important;
 
-height:55px;
+height:55px !important;
 
-}
-
-/* MOBILE FIX */
-
-@media(max-width:768px){
-
-.whatsapp-float{
-
-bottom:20px;
-
-}
-
-.insta-float{
-
-bottom:85px;
-
-}
+max-width:55px;
 
 }
