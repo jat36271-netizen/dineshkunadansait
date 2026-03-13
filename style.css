@@ -41,13 +41,20 @@ font-weight:bold;
 /* HERO */
 
 .hero{
-text-align:center;
-padding:50px;
+background:url("images/cow.jpg");
+background-size:cover;
+background-position:center;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
-.hero img{
-width:80%;
-max-width:500px;
+.hero-overlay{
+background:rgba(0,0,0,0.5);
+padding:40px;
+color:white;
+text-align:center;
 border-radius:10px;
 }
 
@@ -81,6 +88,7 @@ width:230px;
 background:white;
 padding:15px;
 border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 .product img{
@@ -134,26 +142,6 @@ padding:20px;
 margin:10px auto;
 max-width:400px;
 border-radius:10px;
-}
-
-/* ORDER FORM */
-
-.order-form{
-padding:40px;
-text-align:center;
-}
-
-.order-form input,
-.order-form textarea{
-width:80%;
-padding:10px;
-margin:10px;
-border-radius:6px;
-border:1px solid #ccc;
-}
-
-.order-form button{
-margin-top:10px;
 }
 
 /* CONTACT */
