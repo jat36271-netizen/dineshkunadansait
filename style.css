@@ -1,7 +1,115 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f7f2e6;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(to right,#8b5e3c,#caa75d);
+padding:15px;
+color:white;
+}
+
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+width:60px;
+border-radius:6px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:50px;
+}
+
+.hero img{
+width:80%;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* BUTTON */
+
+button{
+background:#1b5e20;
+color:white;
+border:none;
+padding:12px 25px;
+margin-top:15px;
+cursor:pointer;
+border-radius:6px;
+font-size:16px;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:50px;
+text-align:center;
+}
+
+.product-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.product{
+width:230px;
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+.price{
+font-weight:bold;
+color:#1b5e20;
+}
+
+/* STORY */
+
+.story{
+background:#f0e4c3;
+padding:40px;
+text-align:center;
+font-size:18px;
+}
+
 /* GALLERY */
 
 .gallery{
-padding:50px;
+padding:40px;
 text-align:center;
 }
 
@@ -15,33 +123,42 @@ gap:20px;
 .gallery-grid img{
 width:250px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
-/* REVIEWS */
+/* DELIVERY */
 
-.reviews{
-background:#f4eee0;
+.delivery{
+background:#e6d7b9;
 padding:40px;
 text-align:center;
 }
 
-.review-box{
-background:white;
-display:inline-block;
-padding:20px;
-margin:10px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-max-width:300px;
+/* CONTACT */
+
+.contact{
+padding:40px;
+text-align:center;
 }
 
-/* MAP */
+/* FOOTER */
 
-.map iframe{
-width:90%;
-height:300px;
-border:0;
-margin-top:20px;
-border-radius:10px;
+footer{
+background:#8b5e3c;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+font-size:25px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
 }
