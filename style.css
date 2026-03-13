@@ -49,7 +49,6 @@ padding:50px;
 width:80%;
 max-width:500px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
 /* BUTTON */
@@ -59,10 +58,8 @@ background:#1b5e20;
 color:white;
 border:none;
 padding:12px 25px;
-margin-top:15px;
 cursor:pointer;
 border-radius:6px;
-font-size:16px;
 }
 
 /* PRODUCTS */
@@ -84,7 +81,6 @@ width:230px;
 background:white;
 padding:15px;
 border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 .product img{
@@ -93,8 +89,8 @@ border-radius:8px;
 }
 
 .price{
-font-weight:bold;
 color:#1b5e20;
+font-weight:bold;
 }
 
 /* STORY */
@@ -103,7 +99,6 @@ color:#1b5e20;
 background:#f0e4c3;
 padding:40px;
 text-align:center;
-font-size:18px;
 }
 
 /* GALLERY */
@@ -125,12 +120,40 @@ width:250px;
 border-radius:10px;
 }
 
-/* DELIVERY */
+/* REVIEWS */
 
-.delivery{
-background:#e6d7b9;
+.reviews{
+background:#eee;
 padding:40px;
 text-align:center;
+}
+
+.review{
+background:white;
+padding:20px;
+margin:10px auto;
+max-width:400px;
+border-radius:10px;
+}
+
+/* ORDER FORM */
+
+.order-form{
+padding:40px;
+text-align:center;
+}
+
+.order-form input,
+.order-form textarea{
+width:80%;
+padding:10px;
+margin:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.order-form button{
+margin-top:10px;
 }
 
 /* CONTACT */
@@ -149,7 +172,7 @@ text-align:center;
 padding:20px;
 }
 
-/* WHATSAPP FLOAT */
+/* WHATSAPP */
 
 .whatsapp-float{
 position:fixed;
