@@ -22,8 +22,6 @@ padding:20px;
 
 }
 
-/* LOGO AREA */
-
 .logo-area{
 
 display:flex;
@@ -41,8 +39,6 @@ flex-wrap:wrap;
 .logo{
 
 width:80px;
-
-border-radius:8px;
 
 }
 
@@ -63,8 +59,6 @@ width:80%;
 max-width:500px;
 
 border-radius:10px;
-
-box-shadow:0 0 10px rgba(0,0,0,0.2);
 
 }
 
@@ -90,12 +84,6 @@ font-size:16px;
 
 }
 
-button:hover{
-
-background:#2e7d32;
-
-}
-
 /* PRODUCTS */
 
 .products{
@@ -103,12 +91,6 @@ background:#2e7d32;
 padding:40px;
 
 text-align:center;
-
-}
-
-.products h2{
-
-color:#8b5e3c;
 
 }
 
@@ -128,14 +110,6 @@ border-radius:10px;
 
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 
-transition:0.3s;
-
-}
-
-.product:hover{
-
-transform:scale(1.05);
-
 }
 
 .product img{
@@ -147,12 +121,6 @@ border-radius:8px;
 }
 
 /* PRICE */
-
-.price{
-
-font-size:20px;
-
-}
 
 .old{
 
@@ -174,7 +142,7 @@ font-size:22px;
 
 }
 
-/* MAWA TEXT */
+/* TEXT */
 
 .mava-text{
 
@@ -184,47 +152,9 @@ font-size:18px;
 
 color:#7a4a16;
 
-margin-bottom:20px;
-
 }
 
-/* DELIVERY */
-
-.delivery{
-
-background:#e6d7b9;
-
-padding:40px;
-
-text-align:center;
-
-}
-
-/* CONTACT */
-
-.contact{
-
-padding:40px;
-
-text-align:center;
-
-}
-
-/* FOOTER */
-
-footer{
-
-background:#8b5e3c;
-
-color:white;
-
-text-align:center;
-
-padding:20px;
-
-}
-
-/* WHATSAPP FLOAT */
+/* FLOAT BUTTONS */
 
 .whatsapp-float{
 
@@ -246,8 +176,6 @@ height:55px;
 
 }
 
-/* INSTAGRAM FLOAT */
-
 .insta-float{
 
 position:fixed;
@@ -265,5 +193,23 @@ z-index:100;
 width:55px;
 
 height:55px;
+
+}
+
+/* MOBILE FIX */
+
+@media(max-width:768px){
+
+.whatsapp-float{
+
+bottom:20px;
+
+}
+
+.insta-float{
+
+bottom:85px;
+
+}
 
 }
