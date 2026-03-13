@@ -8,31 +8,41 @@ background:#f7f2e6;
 
 header{
 background:linear-gradient(to right,#8b5e3c,#caa75d);
+padding:15px;
 color:white;
-text-align:center;
-padding:20px;
 }
 
-/* LOGO AREA */
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
 
 .logo-area{
 display:flex;
 align-items:center;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
+gap:10px;
 }
 
 .logo{
-width:80px;
-border-radius:8px;
+width:60px;
+border-radius:6px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+font-weight:bold;
 }
 
 /* HERO */
 
 .hero{
 text-align:center;
-padding:40px;
+padding:50px;
 }
 
 .hero img{
@@ -42,38 +52,33 @@ border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
-/* BUTTON */
-
 button{
 background:#1b5e20;
 color:white;
 border:none;
 padding:12px 25px;
-margin-top:10px;
+margin-top:15px;
 cursor:pointer;
 border-radius:6px;
 font-size:16px;
 }
 
-button:hover{
-background:#2e7d32;
-}
-
 /* PRODUCTS */
 
 .products{
-padding:40px;
+padding:50px;
 text-align:center;
 }
 
-.products h2{
-color:#8b5e3c;
+.product-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
 }
 
 .product{
-display:inline-block;
-width:250px;
-margin:20px;
+width:230px;
 background:white;
 padding:15px;
 border-radius:10px;
@@ -112,4 +117,18 @@ background:#8b5e3c;
 color:white;
 text-align:center;
 padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+font-size:25px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
 }
